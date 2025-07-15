@@ -2,3 +2,6 @@
 
 **🧠 Masters in AI @ Northeastern University** | Turning machine intelligence into actionable, scalable software with thoughtful architecture and user value.
 
+## 🤝 Connect with Me
+
+🌐 [Portfolio](https://your-portfolio-link.com) · 💼 [LinkedIn](https://www.linkedin.com/in/purvaja-narayana/) · 📧 [Email](mailto:purvajanarayana@gmail.com)
