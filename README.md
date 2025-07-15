@@ -2,7 +2,7 @@
 
 **🧠 Masters in AI @ Northeastern University** | Turning machine intelligence into actionable, scalable software with thoughtful architecture and user value.
 **📈 Stats**
-![Purvaja github stats](https://github-readme-stats.vercel.app/api?username=PurvajaNarayan&show_icons=true&hide_border=true).
+![Github stats](https://github-readme-stats.vercel.app/api?username=PurvajaNarayan&show_icons=true&hide_border=true).
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=PurvajaNarayan&layout=compact&theme=default)
 
 
