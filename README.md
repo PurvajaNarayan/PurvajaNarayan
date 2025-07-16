@@ -3,7 +3,7 @@
 **🧠 Masters in AI @ Northeastern University** | Turning machine intelligence into actionable, scalable software with thoughtful architecture and user value. 
 
 **👩🏻‍💻 Technical Skills**
-| **Category**           | **Icons** |
+| **Category**           | **Skills** |
 |------------------------|-----------|
 | **Languages**          | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="30"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="30"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" width="30"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="30"/>  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" width="30"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="30"/> |
 | **Data Science / ML**  | <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" width="30"/> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width="30"/> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" width="30"/> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" width="30"/> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" width="30"/> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" width="30"/> <img src="https://www.vectorlogo.zone/logos/apache_hadoop/apache_hadoop-icon.svg" width="30"/> |
