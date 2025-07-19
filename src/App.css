@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+:root {
+  --border-color: #bbb; /* Or your preferred border color */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body {
+  font-family: Gosha, sans-serif;
+  background: #f9f9f9; /* Optional: makes the margin visible */
+  margin: 2rem 4rem 2rem;
   min-height: 100vh;
+  border: 1px solid black;
+}
+
+.intro-banner {
+  text-align: center;
+  font-size: 1.25rem;
+  margin: 2rem 0 0 0;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  padding-bottom: 2rem;
+  background: #f9f9f9;
+  border-bottom: 1px solid black;
+}
+
+.big-greeting {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 2.5rem 0 2rem 0;
+  line-height: 1.1;
+}
+
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(14deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+  60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.waving-hand {
+  display: inline-block;
+  animation: wave 2s infinite;
+  transform-origin: 70% 70%;
+  font-size: 1.2em;
+}
+
+.side-by-side-box {
+  display: flex;
+  /* border: 1px solid #222; */
+  /* margin: 2rem 0; */
+  background: #fff;
+  min-height: 625px;
+  border-bottom: 1px solid #222;
+}
+
+.box-image {
+  flex: 1 1 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-start;
+  border-right: 1px solid #222;
+  background: #fff;
+  overflow: hidden;
+  padding: 0.3rem;
 }
 
-.App-link {
-  color: #61dafb;
+.box-image img {
+  width: 90%;
+  height: 550px;
+  object-fit: contain;
+  display: block;
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box-text {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  background: #fff;
+  padding: 2rem;
 }
+
+.text-section {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: left;
+  color: #333;
+}
+
+.text-section:last-child {
+  margin-bottom: 0;
+}
+
+
+

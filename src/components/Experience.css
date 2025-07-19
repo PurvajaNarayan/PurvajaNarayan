@@ -1,0 +1,125 @@
+.experience-section {
+  margin: 0 0 0 0;
+  padding: 0 2rem;
+}
+
+.experience-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: black;
+  border-bottom: 1px solid black;
+  padding-bottom: 1rem;
+  margin-left: -2rem;
+  margin-right: -2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
+
+.experience-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  max-width: 1200px;
+}
+
+.experience-item {
+  border-bottom: 1px solid #222;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  margin-left: -2rem;
+  margin-right: -22.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.experience-header {
+  margin-bottom: 1rem;
+}
+
+.date-range {
+  font-size: 0.9rem;
+  color: #666;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.job-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #222;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.company {
+  text-decoration: underline;
+}
+
+.experience-details {
+  list-style: disc;
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.experience-details li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.experience-details li:last-child {
+  margin: 0;
+}
+
+.experience-content {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.experience-left {
+  flex: 2;
+}
+
+.experience-right {
+  flex: 1;
+  padding-left: 2rem;
+}
+
+.tech-stack-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tech-stack img {
+  border-radius: 4px;
+  transition: transform 0.2s;
+}
+
+.tech-stack img:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .experience-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .experience-title {
+    font-size: 2.5rem;
+  }
+} 
