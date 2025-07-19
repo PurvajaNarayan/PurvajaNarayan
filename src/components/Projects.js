@@ -7,7 +7,7 @@ const Projects = () => (
     <div className="projects-grid">
       <div className="project-item">
         <div className="project-image">
-          <img src="/utils/FinanceAdvisor.png" alt="Real Time Finance Advisor" />
+          <img src={`${process.env.PUBLIC_URL}/utils/FinanceAdvisor.png`} alt="Real Time Finance Advisor" />
         </div>
         <div className="project-info">
           <h3 className="project-title">Real Time Finance Advisor</h3>
@@ -19,7 +19,7 @@ const Projects = () => (
       
       <div className="project-item">
         <div className="project-image">
-          <img src="/utils/MarketRight.png" alt="MarketRight: Predictive Lead Scoring" />
+          <img src={`${process.env.PUBLIC_URL}/utils/MarketRight.png`} alt="MarketRight: Predictive Lead Scoring" />
         </div>
         <div className="project-info">
           <h3 className="project-title">MarketRight: Predictive Lead Scoring</h3>
@@ -31,7 +31,7 @@ const Projects = () => (
       
       <div className="project-item">
         <div className="project-image">
-          <img src="/utils/EVcharging.png" alt="EVCharging" />
+          <img src={`${process.env.PUBLIC_URL}/utils/EVcharging.png`} alt="EVCharging" />
         </div>
         <div className="project-info">
           <h3 className="project-title">EV Charging Station Locator and Reservation Service</h3>
@@ -43,7 +43,7 @@ const Projects = () => (
       
       <div className="project-item">
         <div className="project-image">
-          <img src="/utils/MultiPersonPoseEstimator.png" alt="Multi-Person Pose Estimator" />
+          <img src={`${process.env.PUBLIC_URL}/utils/MultiPersonPoseEstimator.png`} alt="Multi-Person Pose Estimator" />
         </div>
         <div className="project-info">
           <h3 className="project-title">Real Time Multi-Person Pose Estimator</h3>
@@ -55,7 +55,7 @@ const Projects = () => (
       
       <div className="project-item">
         <div className="project-image">
-          <img src="/utils/EmotionDetection.png" alt="Emotion Detection" />
+          <img src={`${process.env.PUBLIC_URL}/utils/EmotionDetection.png`} alt="Emotion Detection" />
         </div>
         <div className="project-info">
           <h3 className="project-title">Real-Time Emotion-Aware Music Recommender</h3>

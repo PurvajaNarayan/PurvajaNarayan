@@ -5,12 +5,12 @@ import "./About.css";
 const About = () => (
   <div className="side-by-side-box">
     <div className="box-image">
-      <img src="/utils/ChatGPTpp.png" alt="AI generated profile" />
+      <img src={`${process.env.PUBLIC_URL}/utils/ChatGPTpp.png`} alt="AI generated profile" />
       <div className="text-section contact-links">
         <a href="mailto:narayana.p@northeastern.edu">💬 Email</a> 
         <a href="https://www.linkedin.com/in/purvaja-narayana/">💼 LinkedIn</a>
         <a href="https://github.com/PurvajaNarayan">🖥️ GitHub</a>
-        <a href="">📄 Resume</a>
+        <a href="https://github.com/PurvajaNarayan" target="_blank" rel="noopener noreferrer">📄 Resume</a>
       </div>
     </div>
     <div className="box-text">
